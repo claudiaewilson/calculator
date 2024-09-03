@@ -15,3 +15,7 @@ def test_multiply():
 def test_divide():
     assert operations.divide(6, 3) == 2, 'incorrect'
     assert operations.divide(1, 0) == ValueError, 'incorrect'
+
+def test_sqrt():
+    assert operations.sqrt(9) == 3, 'incorrect'
+    assert operations.sqrt(-1) == ValueError, 'incorrect'

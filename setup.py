@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'calculator',
-    version = '0.1', 
+    version = '0.2', 
     packages = find_packages(exclude=['tests*']),
     license = 'MIT',
     description = 'example calculator package', 
